@@ -1,0 +1,30 @@
+[package]
+name = "codstts"
+version = "0.1.0"
+edition = "2021"
+authors = ["stackzheng <stackszhang@gmail.com>"]
+description = "A code statistics tool that analyzes programming language distribution in projects"
+license = "MIT"
+repository = "https://github.com/zheng0116/codstts"
+readme = "README.md"
+keywords = ["statistics", "code", "analysis", "programming", "languages"]
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "2.0.11"
+toml = "0.8.19"
+colored = "3.0"
+indicatif = "0.17.9"
+ignore = "0.4.23"
+clap = { version = "4.0", features = ["derive"] }
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = ["consoleapi", "processenv", "wincon"] }
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "analyze_benchmark"
+harness = false
