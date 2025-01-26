@@ -1,5 +1,6 @@
 # Codstts
   ![Codstts](https://img.shields.io/badge/passing-code-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![Rust Version](https://img.shields.io/badge/rust-1.80.1-blue)
+
 English | [中文](./README_zh.md)
 ## 🌟 Overview
 A code statistics tool written in Rust that analyzes programming language distribution in projects.
