@@ -77,7 +77,7 @@ Detailed mode includes additional information such as code lines, comment lines,
 
 ## License
 
-MIT
+This project is open-sourced under the [MIT](./LICENSE)
 
 ## Contributing
 
