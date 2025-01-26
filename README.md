@@ -63,7 +63,6 @@ exclude_files = ["LICENSE", "README.md"]
 Simple mode:
 ```
 Languages
-Languages
 ██████████████████████████████████████████████████
 
 ● Python 62.1% (15666 bytes)
