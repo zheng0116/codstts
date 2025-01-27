@@ -59,18 +59,8 @@ exclude_files = ["LICENSE", "README.md"]
 ```
 
 ## 输出示例
+![Interface](images/usage.png)
 
-简单模式:
-```
-Languages
-██████████████████████████████████████████████████
-
-● Python 62.1% (15666 bytes)
-● JavaScript 16.1% (4046 bytes)
-● CSS 13.9% (3504 bytes)
-● HTML 7.3% (1836 bytes)
-● Shell 0.6% (149 bytes)
-```
 
 详细模式包含更多信息,如代码行数、注释行数等。
 
